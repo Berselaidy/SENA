@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Pedido</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5" style="background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 4px 8px rgb(201, 152, 152); height: 700px;">
+    <h2 class="mb-4 text-center">Envíanos un email</h2>
+    <p class="mb-4 text-center">Tardaremos entre 1 y 2 días en responder tu email</p>
+    
+    <form>
+
+      <!-- Nombre y Apellidos -->
+      <div class="mb-3">
+        <label for="nombreApellidos" class="form-label">Nombre y Apellidos</label>
+        <input type="text" class="form-control" id="nombreApellidos" placeholder="" required>
+      </div>
+      
+      <!-- Correo -->
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="correo" placeholder="" required>
+      </div>
+      
+      <!-- Teléfono (opcional) -->
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Teléfono (opcional)</label>
+        <input type="tel" class="form-control" id="telefono" placeholder="">
+      </div>
+      
+      <!-- Número de pedido -->
+      <div class="mb-3">
+        <label for="numeroPedido" class="form-label">Número de Pedido (opcional)</label>
+        <input type="text" class="form-control" id="numeroPedido" placeholder="">
+      </div>
+      
+      <!-- Consulta -->
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Escríbenos tu consulta</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+      <!-- Botón Enviar -->
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -3,7 +3,10 @@ POST http://localhost:9000/api/users HTTP/1.1
 content-type: application/json
 
 {
-    "name":"Berselaidy",
-    "email":"gmail@gmail.com",
-    "profesion":"Estudiante"
+    "Correo_electronico":"Berselaidy@ggg.com",
+    "Contraseña":"111fff",
+    "Nombre":"Berselaidy",
+    "Apellidos":"Chavarro Bautista",
+    "Telefono":"3012058999"
 }
+

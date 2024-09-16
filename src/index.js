@@ -13,8 +13,9 @@ const port = process.env.PORT || 9000;
 app.listen(port, () => console.log('Servidor ok', port));
 
 //middleware
-app.use('/api',userRoutes);
 app.use(express.json());
+app.use('/api',userRoutes);
+
 
 // Se crea una ruta 
 app.get("/",(req,res)=> {

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre Garras</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand"><span class="text-secondary fs-2 fw-bold">EntreGarras</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-start" aria-controls="navbar-start" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-start">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item ms-3"><a href="login.html" class="btn btn-primary"><i class="bi bi-person fs-4"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel con tamaño limitado y flechas -->
+  <div id="carouselE1" class="carousel slide mx-auto" style="max-width: 500px;" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="0" class="active" aria-current="true"></button>
+      <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselE1" data-bs-slide-to="2"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Imagen/img1.jpg" class="d-block w-100" style="height: 900px; object-fit: cover;" alt="Imagen 1">
+        <div class="carousel-caption fw-bold">
+          <h5>Materiales de alta calidad</h5>
+          <p>Algodón perchado.</p>
+          <p><a href="#" class="btn btn-primary mt-3">Leer más</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagen/img2.jpg" class="d-block w-100" style="height: 900px; object-fit: cover;" alt="Imagen 2">
+        <div class="carousel-caption fw-bold">
+          <h5>Más que una prenda...</h5>
+          <p>Un recordatorio de nuestra amistad incondicional.</p>
+          <p><a href="#" class="btn btn-primary mt-3">Leer más</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Imagen/img3.jpg" class="d-block w-100" style="height: 900px; object-fit: cover;" alt="Imagen 3">
+        <div class="carousel-caption fw-bold text-body">
+          <h5>Excelente calidad</h5>
+          <p>Hecho en Colombia.</p>
+          <p><a href="#" class="btn btn-primary mt-3">Leer más</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Boton para ir al slide anterior -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselE1" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+
+    <!-- Boton para ir al siguiente slide -->
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselE1" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <!-- Boton contáctanos y Footer -->
+  <div id="footer" class="p-4">
+    <div class="container pt-3" style="background-color: #d6d6d6;">
+      <div class="row justify-content-md-center">
+        <div class="col text-center">
+          <a href="contactanos.html">
+            <button class="btn btn rounded-pill btn-primary w-10 p-8 shadow-sm font-weight-bold">Contáctanos</button>
+          </a>
+        </div>
+      </div>
+      <div class ="row justify-content-md-center py-3">
+        <div class="col text-center font-weight-light">
+          Comercio al por menor de prendas de vestir y sus accesorios (productos personalizados) 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
